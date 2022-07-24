@@ -1,0 +1,222 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.login-page{
+    background-image: url('../img/login-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    align-items: flex-start;
+}
+.login-page .login-box-msg{
+    color: #9c9c9c;
+}
+.login-page .h1{
+    font-size: 32px;
+    color: #0057e8;
+}
+.login-page button{
+    background-color: #000e3e;
+}
+nav.main-header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+aside{
+    position: fixed !important;
+}
+aside .active{
+    background-color: #d2e5f9 !important;
+}
+aside .active p, aside .active i{
+    color: #000 !important;
+}
+.manage-category, .manage-products, .subscribers{
+    padding: 80px 50px 50px 50px;
+}
+.manage-category .card-body{
+    padding: 30px !important;
+}
+.manage-products .card-body, .subscribers .card-body{
+    padding: 15px 30px 30px 30px;
+}
+.manage-category .card-header, .manage-products .card-header, .subscribers .card-header{
+    background-color: #D2DCE2;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+.manage-category .card-header .card-title, .manage-products .card-header .card-title, .subscribers .card-header .card-title{
+    color: #354168;
+    font-size: 32px;
+    font-weight: bold;
+}
+.manage-category .card-header button, .manage-products .card-header button, .manage-products .submit_btn_add_products, .subscribers .card-header button{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 7px 25px;
+}
+.manage-products .submit_btn_add_products{
+    padding: 5px 27px !important;
+}
+.manage-category .card-body .category_table img{
+    width: 50px;
+    height: auto;
+}
+.manage-products .card-body .category_table img{
+    width: 100px;
+    height: auto;
+}
+.manage-category .card-body .category_table th, .manage-products .card-body .category_table th, .subscribers .card-body .category_table th{
+    text-align: center;
+    padding: 18px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.manage-category .card-body .category_table td, .manage-products .card-body .category_table td, .subscribers .card-body .category_table td{
+    padding: 15px;
+    font-weight: 400;
+    text-align: center;
+}
+.new-designs-images .desc-table-heading{
+    width: 25% !important;
+}
+.new-designs-images .actual-price-table-heading{
+    width: 5% !important;
+}
+.manage-category .card-body .category_table td, .manage-category .card-body .category_table th, .manage-products .card-body .category_table td, .manage-products .card-body .category_table th{
+    /* padding: 0.5rem 1rem !important; */
+    width: 5%;
+    border: 2px solid #D1D9EB !important;
+    color: #212559;
+    /* display: flex;
+    align-items: center; */
+}
+
+.manage-products .card-body .category_table td, .manage-products .card-body .category_table th
+.happy_customers_table td, .happy_customers_table th{
+    width: 15% !important;
+}
+.new-designs-images .card-body .category_table td{
+    width: 5%;
+}
+.new-designs-images .card-body .category_table img {
+    width: 130px;
+    height: auto;
+}
+.subscribers .card-body .category_table td, .subscribers .card-body .category_table th{
+    width: auto !important;
+    border: 2px solid #D1D9EB !important;
+    color: #212559;
+}
+.manage-products .card-body #videos_table td, .manage-products .card-body #videos_table th{
+    width: 6% !important;
+    border: 2px solid #D1D9EB !important;
+    color: #212559;
+}
+.manage-products .card-body #videos_table img{
+    width: 230px;
+    height: auto;
+}
+.manage-products .card-body #videos_table iframe{
+    width: 230px;
+    height: 130px;
+}
+.add_category_modal form, .edit_category_modal form, .add_products_modal form, .add_video_modal form{
+    padding: 10px;
+}
+.add_category_modal h5, .edit_category_modal h5, .add_products_modal h5, .add_video_modal h5{
+    color: #212559;
+}
+.add_category_modal .modal-header, .edit_category_modal .modal-header, .add_products_modal .modal-header, .add_video_modal .modal-header{
+    padding: 20px 30px;
+}
+.add_category_modal .submit_btn_signup, .edit_category_modal .submit_btn, .add_products_modal .submit_btn_add_products, .add_video_modal .submit_btn_add_video, .add_products_modal #submit_btn_add_products{
+    background-color: #29C492;
+    color: #fff;
+    border: 2px solid #007852;
+    border-radius: 3px;
+    padding: 5px 25px;
+    font-weight: bold;
+}
+.manage-products table button, .manage-category table button, .add_products_modal table button, .add_video_modal table button{
+    color: #fff;
+    border-radius: 3px;
+    padding: 0 !important;
+    border: none;
+    margin: 0 !important;
+    margin-left: 3px !important;
+    margin-right: 3px !important;
+}
+.manage-products table .actions-td, .manage-category table .actions-td, .add_products_modal table .actions-td, .add_video_modal table .actions-td{
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+.add_category_modal .close_btn, .edit_category_modal .close_btn, .add_products_modal .close_btn, .add_video_modal .close_btn{
+    background-color: #F3F5F6;
+    padding: 7px 25px;
+    border: 1px solid lightgray;
+}
+.add_category_modal input, .edit_category_modal input, .add_products_modal input, .add_products_modal select, .add_products_modal textarea, .add_video_modal input{
+    padding: 10px 15px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid lightgray !important;
+    border-radius: 5px !important;
+}
+.add_category_modal textarea, .edit_category_modal textarea, .add_products_modal textarea{
+    padding: 10px 15px;
+    width: 100%;
+    resize: none;
+}
+.add_category_modal button.upload_file, .edit_category_modal button.upload_file, .add_products_modal button.upload_file, .add_video_modal button.upload_file{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 7px 25px;
+    height: 100%;
+    width: 180px;
+    z-index: 0;
+    position: absolute;
+    right: 0;
+}
+.add_products_modal #product_icon_input, .edit_category_modal #product_icon_input, .add_video_modal #product_icon_input, .edit_category_modal #category_image_input, .edit_category_modal #new_design_image_input, .edit_category_modal #product_image_input, .edit_category_modal #product_icon_input_edit, .happy_customers_modal #product_image_input_add, .latest_videos_modal #latest_videos_icon_input{
+    opacity: 0;
+    z-index: 999;
+    padding: 6px;
+}
+.add_products_modal .product_icon_display, .edit_category_modal .product_icon_display, .add_video_modal .product_icon_display{
+    z-index: 0;
+    position: absolute;
+    left: 0;
+}
+.add_category_modal .form-group, .edit_category_modal .form-group, .add_products_modal .form-group{
+    padding: 0;
+}
+#category_table_filter, #subscribers_filter{
+    margin-bottom: 15px !important;
+}
+.manage-products table th, .manage-category table th, .subscribers table th{
+    background-color: #264f7c !important;
+    color: #fff !important;
+    font-weight: normal !important;
+}
+.manage-products .dt-buttons button, .manage-category .dt-buttons button, .subscribers .dt-buttons button{
+    background-color: #4d5257 !important;
+    border: 1px solid #4d5257 !important;
+}
+.add_new_design_cat_modal img, .new_designs_images_modal img, .happy_customers_modal img, .latest_videos_modal img{
+    display: none;
+}
+.manage-products input, .manage-products select, .manage-products textarea{
+    font-size: 13px !important;
+}
+.manage-products label{
+    font-weight: 500 !important;
+    font-size: 15px;
+}

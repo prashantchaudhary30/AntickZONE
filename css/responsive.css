@@ -1,0 +1,915 @@
+@media (max-width: 767.98px) {
+
+    /* include css starts */
+    .laptop-menu {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .social-media-fixed .social-media-fixed-box {
+        width: 32px;
+        height: 32px;
+        border-width: 3px !important;
+    }
+
+    .social-media-fixed .social-media-fixed-box svg {
+        font-size: 16px;
+    }
+
+    .whatsapp-fixed-bottom p {
+        font-size: 10px;
+        font-weight: 500;
+    }
+
+    .whatsapp-fixed-bottom .whatsapp-div svg {
+        font-size: 24px;
+    }
+
+    .whatsapp-fixed-bottom .whatsapp-div {
+        width: 40px;
+        height: 40px;
+    }
+
+    .footer {
+        background: linear-gradient(to bottom, #2A0648, #001E4F, #04072E);
+        padding-top: 2rem !important;
+    }
+
+    .footer .left-content {
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+        padding-bottom: 3rem !important;
+        padding-left: 20px;
+    }
+
+    .footer .right-content {
+        padding-left: 50px !important;
+    }
+
+    .footer .right-content .website-name p {
+        margin-left: -30px;
+    }
+
+    .footer .left-content .company-details .social-media {
+        margin-top: 15px;
+    }
+
+    .footer .left-content .company-details .social-media div {
+        justify-content: center !important;
+    }
+
+    .footer .left-content .company-details .company-name-logo h1 {
+        font-size: 34px;
+        margin-bottom: 5px !important;
+    }
+
+    .footer .left-content .company-details .company-name-logo h5 {
+        font-weight: normal !important;
+    }
+
+    .footer .footer-box-links,
+    .footer .footer-box-links a,
+    .footer .footer-box-links svg {
+        color: #fff !important;
+    }
+
+    .footer .footer-box-links .links-box a {
+        font-size: 16px;
+    }
+
+    .footer .footer-box-links {
+        margin-top: 20px;
+    }
+
+    .footer .footer-box-links .reach-us {
+        margin-top: 40px;
+    }
+
+    .copyright {
+        padding-bottom: 40px !important;
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+
+    .copyright .copyright-box {
+        display: block !important;
+    }
+
+    .copyright p {
+        font-size: 12px;
+    }
+
+    .login_modal_home .modal-body {
+        background: url('../img/login-bg.jpeg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .login_modal_home .container {
+        background-color: transparent !important;
+        box-shadow: none !important;
+    }
+
+    .login-container-mobile input {
+        font-size: 14px;
+        padding: 7px 20px;
+    }
+
+    .login-container-mobile .login-options button {
+        padding: 6px;
+    }
+
+    /* include css ends */
+
+
+
+
+    /* Home page responsive css starts */
+    .home-banner-menu {
+        padding: 0 !important;
+    }
+
+    .home-banner-menu .home-banner {
+        padding: 105px 0 90px 0;
+    }
+
+    .home-banner-menu .home-banner .home-banner-box button {
+        width: auto;
+        padding: 6px 12px;
+    }
+
+
+    .home-banner-menu .home-banner .home-banner-box h1 {
+        font-size: 30px;
+    }
+
+    .home-banner-menu .home-banner .home-banner-box p {
+        font-size: 14px;
+    }
+
+    .home-banner-menu .home-banner .home-banner-box button span {
+        font-size: 15px;
+    }
+
+    .home-banner-menu .home-banner .home-banner-box h3,
+    .home-banner-menu .home-banner .home-banner-box .custumoise-own-design {
+        margin-top: 0.6rem !important;
+        margin-bottom: 0.6rem !important;
+    }
+
+    .best-selling-products .best-selling-products-swiper .swiper-slide {
+        padding: 10px 25px !important;
+        margin-left: 1px;
+    }
+
+    .explore .explore-swiper .swiper-slide {
+        padding: 10px 30px !important;
+    }
+
+    .best-selling-products .best-selling-products-swiper .swiper-button-prev {
+        left: 2px !important;
+    }
+
+    .explore .explore-swiper .swiper-button-prev {
+        left: 8px !important;
+    }
+
+    .best-selling-products .best-selling-products-swiper .swiper-button-next::after,
+    .best-selling-products .best-selling-products-swiper .swiper-button-prev::after,
+    .explore .explore-swiper .swiper-button-next::after,
+    .explore .explore-swiper .swiper-button-prev::after {
+        font-size: 24px !important;
+    }
+
+    .best-selling-products,
+    .new-designs {
+        padding-left: 35px !important;
+        padding-bottom: 30px !important;
+    }
+
+    .best-selling-products h1,
+    .explore h1 {
+        font-size: 29px;
+        padding-left: 23px;
+
+    }
+
+    .explore h1 {
+        color: #fff;
+    }
+
+    .explore {
+        padding-left: 35px;
+        /* background-color: #32054E; */
+    }
+
+    .explore .explore-box {
+        /* padding: 5px;
+        box-shadow: 0 -2px 15px 0 #ff42d6 inset, 0 1px 7px 0 #ff42d6, 0 4px 10px 0 #ff42d6 inset, 0 3px 15px 0 #ff42d6;
+        border: 3px solid #fff; */
+    }
+
+    .happy-customers h1,
+    .latest-videos h1 {
+        font-size: 28px;
+    }
+
+    .latest-videos {
+        padding-left: 40px !important;
+        padding-top: 50px;
+    }
+
+    .latest-videos .latest-videos-swiper .swiper-button-next {
+        right: -6px !important;
+    }
+
+    .latest-videos .latest-videos-swiper .swiper-button-prev {
+        left: -6px !important;
+    }
+
+    .latest-videos .latest-videos-swiper .swiper-slide {
+        padding: 0 26px !important;
+    }
+
+    .latest-videos .latest-videos-swiper iframe {
+        width: 100%;
+        height: 145px;
+    }
+
+    .latest-videos .latest-videos-swiper .swiper-button-next::after,
+    .latest-videos .latest-videos-swiper .swiper-button-prev::after {
+        font-size: 24px !important;
+    }
+
+    .latest_videos_modal .modal-content {
+        margin-top: 15px;
+    }
+
+    .latest_videos_modal iframe {
+        width: 100%;
+        height: 190px;
+    }
+
+    .login-container-mobile {
+        padding-top: 0;
+    }
+
+    /* Home page responsive css starts */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Custom Neon Sign page responsive css starts */
+    .custom-sign-main-section {
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+
+    .custom-sign-main-section .img-product-gallery-swiper {
+        padding: 10px 25px !important;
+    }
+
+    .custom-sign-main-section .right-content .cost span {
+        font-size: 21px;
+    }
+
+    .custom-sign-main-section .left-content {
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+
+    .custom-sign-main-section .left-content .latest-videos {
+        display: none;
+    }
+
+    .custom-sign-main-section .right-content .options .color-box .color {
+        width: 21px;
+        height: 21px;
+        margin-right: 10px;
+    }
+
+    .custom-sign-main-section .right-content .options .text input,
+    .custom-sign-main-section .right-content .options select {
+        font-size: 15px;
+    }
+
+    .custom-sign-main-section .right-content .options .contact-buttons button span {
+        font-size: 15px;
+    }
+
+    .custom-sign-main-section .right-content .options .contact {
+        margin-top: 50px;
+    }
+
+    .custom-sign-main-section .right-content .options .contact-buttons {
+        margin-top: 40px;
+    }
+
+    /* Custom Neon Sign page responsive css ends */
+
+
+
+
+
+
+
+
+
+
+    /* About us page responsive code starts */
+    .about-us {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .about-us p,
+    .about-us li {
+        font-size: 13px;
+    }
+
+    /* About us page responsive code ends */
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Contact us page responsive code starts */
+    .menu_heading .heading h1 {
+        padding-top: 20px !important;
+        font-size: 36px;
+    }
+
+    .menu_heading {
+        padding-bottom: 44px;
+        margin-bottom: 10px;
+        padding-top: 70px;
+    }
+
+    .menu_heading .heading h1 span {
+        font-size: 50px;
+    }
+
+    .contact_us_sect .right-content {
+        margin-top: 40px;
+    }
+
+    .contact_us_sect .left-content,
+    .contact_us_sect .right-content {
+        padding-left: 35px !important;
+        padding-right: 35px !important;
+    }
+
+    .contact_us_sect .details .details-box {
+        padding: 25px;
+    }
+
+    .contact_us_sect .details .details-box a {
+        font-size: 11px;
+    }
+
+    .contact_us_sect .details .details-box .phone-number {
+        font-size: 14px;
+    }
+
+    /* Contact us page responsive code ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Login page responsive code starts */
+    .login-container {
+        display: none;
+    }
+
+    .login-container-mobile {
+        display: block;
+    }
+
+    /* Login page responsive code ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Explore page responsive css starts */
+    .new-designs h1 {
+        font-size: 31px;
+    }
+
+    /* Explore page responsive css starts */
+
+
+
+
+
+
+
+
+
+
+    /* Cart page responsive starts */
+    .cart-section .set_quantity{
+        justify-content: center !important;
+    }
+    .cart-section .product_img img{
+        width: 100% !important;
+    }
+    .cart-section .product_name{
+        text-align: center;
+        margin-bottom: 8px !important;
+    }
+    .cart-section .set_quantity::after{
+        right: auto !important;
+        bottom: -25px;
+    }
+    .cart-section{
+        padding-top: 110px;
+        padding-bottom: 50px;
+    }
+    .cart-section .remove-price{
+        margin-top: 1rem !important;
+    }
+    .cart-section .card-title p {
+        text-align: center;
+    }
+    /* Cart page responsive ends */
+}
+
+
+@media (min-width: 768px) and (max-width: 1023.98px) {
+
+    /* include css starts */
+    .laptop-menu {
+        display: block;
+    }
+
+    .login-container .input {
+        padding: 9px !important;
+    }
+
+    .login-container .btn {
+        padding: 10px 2rem;
+        font-size: 14px;
+    }
+
+    .social-media-fixed .social-media-fixed-box {
+        width: 37px;
+        height: 37px;
+        border-width: 3px !important;
+    }
+
+    .social-media-fixed .social-media-fixed-box svg {
+        font-size: 18px;
+    }
+
+    .whatsapp-fixed-bottom p {
+        font-size: 10px;
+        font-weight: 500;
+    }
+
+    .whatsapp-fixed-bottom .whatsapp-div svg {
+        font-size: 24px;
+    }
+
+    .whatsapp-fixed-bottom .whatsapp-div {
+        width: 40px;
+        height: 40px;
+    }
+
+    .laptop-menu h1 {
+        font-size: 24px;
+    }
+
+    .laptop-menu a {
+        font-size: 12px;
+    }
+
+    .laptop-menu .search input {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .laptop-menu .fa-moon,
+    .laptop-menu .fa-circle-user {
+        font-size: 18px;
+        color: #fff;
+        margin-right: 6px;
+    }
+
+    .laptop-menu .search {
+        display: none;
+    }
+
+    .footer {
+        background-position: -365px 70px;
+        padding-top: 5rem !important;
+        padding-bottom: 0 !important;
+    }
+
+    .footer .company-details {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+
+    .footer .footer-box-links .links-box a {
+        font-size: 11px;
+    }
+
+    .footer .company-details .company-name-logo .logo {
+        width: 50px;
+        height: 50px;
+    }
+
+    .footer .mail_id{
+        font-size: 9px;
+    }
+
+    .footer .company-details .row {
+        padding-left: 40px;
+    }
+
+    .footer .company-details .company-name-logo h1 {
+        font-size: 25px;
+        margin-bottom: 10px !important;
+    }
+
+    .footer .company-details .company-name-logo h5 {
+        font-size: 16px;
+    }
+
+    .footer .company-details svg {
+        font-size: 19px;
+    }
+
+    .footer .company-details .social-media h6 {
+        font-size: 11px !important;
+    }
+
+    .footer .right-content {
+        margin-left: -5px !important;
+    }
+
+    .footer .right-content .col-md-1 {
+        width: 0 !important;
+    }
+
+    .footer .right-content h3 {
+        font-size: 16px;
+    }
+
+    .copyright {
+        padding-bottom: 30px;
+    }
+
+    .copyright p {
+        font-size: 12px;
+    }
+
+    /* include css ends */
+
+
+
+
+    /* Home page responsive css starts */
+    .home-banner-menu .home-banner {
+        padding: 70px 0;
+    }
+
+    .home-banner-menu .laptop-menu .search {
+        display: none;
+    }
+
+    .home-banner-menu .home-banner .home-banner-box h1 {
+        font-size: 33px;
+    }
+
+    .home-banner-menu .home-banner .home-banner-box p {
+        font-size: 15px;
+    }
+
+    .home-banner-menu .home-banner .home-banner-box h3,
+    .home-banner-menu .home-banner .home-banner-box .custumoise-own-design {
+        margin-top: 0.75rem !important;
+        margin-bottom: 0.75rem !important;
+        font-size: 17px;
+    }
+
+    .home-banner-menu .home-banner .home-banner-box h3 {
+        font-size: 24px !important;
+    }
+
+    .best-selling-products .best-selling-products-swiper .swiper-slide {
+        padding: 20px !important;
+    }
+
+    .best-selling-products {
+        padding-left: 35px !important;
+        padding-bottom: 30px !important;
+    }
+
+    .new-designs .new-designs-box p {
+        font-size: 14px !important;
+    }
+
+    .new-designs {
+        padding-left: 50px !important;
+    }
+
+    .new-designs .new-designs-box p {
+        text-align: center;
+    }
+
+    .new-designs .new-designs-box .cost .final-price span,
+    .new-designs .new-designs-box .cost .actual-price .actual-price-box span {
+        font-size: 13px !important;
+        margin-left: 5px !important;
+    }
+
+    .new-designs .new-designs-box .cost .final-price,
+    .new-designs .new-designs-box .cost .actual-price .actual-price-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .new-designs .new-designs-box .rating svg {
+        font-size: 14px;
+    }
+
+    .explore .explore-swiper .swiper-button-prev {
+        left: 20px !important;
+    }
+
+    .happy-customers {
+        padding-top: 50px;
+        padding-left: 50px !important;
+    }
+
+    .happy-customers .happy-customers-box h5 {
+        font-size: 18px !important;
+    }
+
+    /* Home page responsive css ends */
+
+
+
+
+
+
+
+    /* Custom neon sign page responsive css starts */
+    .custom-sign-main-section .left-content {
+        padding-left: 30px !important;
+        padding-right: 0px !important;
+    }
+
+    .custom-sign-main-section .right-content {
+        padding-left: 40px;
+    }
+
+    .custom-sign-main-section .right-content h1 {
+        font-size: 25px;
+    }
+
+    .custom-sign-main-section .right-content .cost span,
+    .custom-sign-main-section .right-content .cost svg {
+        font-size: 21px;
+    }
+
+    .custom-sign-main-section .right-content .options .text input,
+    .custom-sign-main-section .right-content .options select {
+        font-size: 15px;
+    }
+
+    .custom-sign-main-section .right-content .options .color-box .color {
+        width: 22px;
+        height: 22px;
+        margin-right: 9px;
+    }
+
+    .custom-sign-main-section {
+        padding-top: 70px;
+        padding-bottom: 0px;
+    }
+
+    .latest-videos .latest-videos-swiper .swiper-button-next::after,
+    .latest-videos .latest-videos-swiper .swiper-button-prev::after {
+        /* margin-top: -70px; */
+        font-size: 22px !important;
+    }
+
+    .custom-sign-main-section .right-content .options .contact-buttons button span {
+        font-size: 15px;
+    }
+
+    .custom-sign-main-section .right-content .options .rate-review {
+        margin-top: 40px;
+    }
+
+    /* Custom neon sign page responsive css ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* About us page responsive code starts */
+    .about-us {
+        padding-top: 60px;
+        padding-bottom: 0px;
+    }
+
+    /* About us page responsive code ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Cart page responsive starts */
+    .cart-section .product_img img{
+        width: 100% !important;
+    }
+    /* Cart page responsive ends */
+}
+
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+    .laptop-menu h1 {
+        font-size: 36px;
+    }
+
+    .laptop-menu .search input {
+        padding: 8px;
+        width: 140px;
+    }
+
+    .laptop-menu a {
+        font-size: 13px;
+    }
+
+    .custom-sign-main-section .left-content .latest-videos .latest-videos-swiper .latest-videos-box {
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+    }
+
+    .custom-sign-main-section .left-content .latest-videos iframe {
+        height: 95px !important;
+    }
+
+    .custom-sign-main-section .left-content .latest-videos .latest-videos-swiper .latest-videos-box h5 {
+        font-size: 16px;
+    }
+
+    .custom-sign-main-section .left-content .latest-videos .latest-videos-swiper .latest-videos-box p {
+        font-size: 13px;
+    }
+
+    .latest-videos .latest-videos-swiper .swiper-button-next::after,
+    .latest-videos .latest-videos-swiper .swiper-button-prev::after {
+        font-size: 22px !important;
+    }
+
+    .latest-videos .latest-videos-swiper .swiper-button-next,
+    .latest-videos .latest-videos-swiper .swiper-button-prev {
+        top: 55px;
+    }
+
+    .latest-videos .latest-videos-swiper .swiper-button-next {
+        right: -7px !important;
+    }
+
+    .latest-videos .latest-videos-swiper .swiper-button-prev {
+        left: -7px !important;
+    }
+
+    .custom-sign-main-section .right-content h1 {
+        font-size: 32px;
+    }
+
+    .footer {
+        background-position: 30% 10%;
+        padding-bottom: 3rem !important;
+    }
+
+    .footer .company-details {
+        width: 70%;
+        margin-bottom: -40px;
+        margin-left: 70px;
+    }
+
+    .footer .footer-box-links .right-content-box {
+        margin-top: -30px !important;
+    }
+
+    .footer .footer-box-links .links-box a {
+        font-size: 15px;
+    }
+
+    .footer .company-details .company-name-logo h1 {
+        font-size: 30px;
+    }
+
+    .footer .company-details .company-name-logo h5 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .footer .company-details svg {
+        font-size: 26px;
+        font-weight: bold;
+    }
+
+    .footer .company-details h6 {
+        font-size: 15px;
+    }
+}
+
+@media (min-width : 1201px) {
+    .laptop-menu .search {
+        position: relative;
+        z-index: 9999;
+        width: 70%;
+    }
+
+    .laptop-menu .search input {
+        width: 100%;
+    }
+
+    .footer .footer-box-links .links-box a {
+        font-size: 15px;
+    }
+
+    .footer .company-details {
+        margin-bottom: -15px !important;
+        width: 60%;
+    }
+}
