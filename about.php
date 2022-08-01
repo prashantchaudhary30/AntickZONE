@@ -60,7 +60,7 @@
                                 <div class="col-md-3 menu-box">
                                     <h4>Features 1</h4>
 
-                                    <img src="img/menu_img.png" class="img-fluid w-100" alt="">
+                                    <img src="https://res.cloudinary.com/antickzone/image/upload/v1659368612/menu_img_11zon_lmjvyf.jpg" class="img-fluid w-100" alt="">
                                 </div>
 
                                 <div class="col-md-3 menu-box">
